@@ -1,0 +1,3 @@
+C:/Users/mered/CLionProjects/ZPRPR2_MeredovN_Project1/cmake-build-debug/CMakeFiles/ZPRPR2_MeredovN_Project1.dir
+C:/Users/mered/CLionProjects/ZPRPR2_MeredovN_Project1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mered/CLionProjects/ZPRPR2_MeredovN_Project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

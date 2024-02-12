@@ -1,0 +1,34 @@
+UP12345678
+Zaklady proceduralneho programovania 2
+Jan Zelenka#A#
+202004050800
+
+UP12457896
+Deep learning
+Jozko Mrkvicka#A#
+202004051120
+
+UD12365478
+Cloud computing
+Jana Mrkvickova#A#Jozko Mrkvicka#K#
+202004051030
+
+UP98632541
+Metody inspirovane prirodou
+Jan Oriesok#A#Jozko Mrkvicka#A#
+202004051520
+
+UP45600100
+Spracovanie obrazu
+Jozko Mrkvicka#A#
+202004051140
+
+PP96385214
+Spracovanie obrazu
+Jozko Mrkvicka#A#
+202004051200
+
+PD45678925
+Metody inspirovane prirodou (2)
+Jana Oriesokova#A#Jan Oriesok#A#Jozko Mrkvicka#K#
+202004051520
