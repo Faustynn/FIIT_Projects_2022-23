@@ -1,0 +1,9 @@
+Nazar Meredov;Classic;1;12;12;14
+Nazar Mering;Classic;5;7;5;13
+Nazii Bohus;Platinum;4;2;8;24
+Nazwe Qwet;Gold;4;13;52;20
+QWERTY ASDFGH;Gold;1;2;2;5
+Marii Simson;Platinum;7;12;84;42
+Example Name;Platinum;1;3;3;6
+Maria Kovacova;Gold;2;6;12;10
+Vlad Piskelov;Gold;2;4;8;10

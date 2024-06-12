@@ -1,0 +1,5 @@
+Nazar Meredov;26;Senior;admin;admin
+Maria Gadren;23;Middle;adminM;adminM
+Arturia Pentragon;18;Unior;adminU;adminU
+Leonel Messi;28;Senior;adminL;adminL
+Cristiano Ronaldo;26;Unior;adminC;adminC

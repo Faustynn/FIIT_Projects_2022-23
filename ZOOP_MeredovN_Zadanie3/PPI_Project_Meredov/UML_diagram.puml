@@ -1,0 +1,48 @@
+@startuml
+
+package main {
+  class Main {}
+}
+
+package classes.hallclases {
+  class Halls {}
+  class Classic {}
+  class Gold {}
+  class Platinum {}
+}
+
+package classes {
+  class Operations {}
+  interface DataOperation{}
+  class MySeparator {}
+  abstract class Separator {}
+  package users {
+    class Admin {}
+    class Customers {}
+  }
+  package personal {
+    class Service {}
+    class Unior {}
+    class Senior {}
+    class Middle {}
+  }
+}
+
+Main *-- Halls
+Main -> Operations
+Main *-- Service
+Classic --|> Halls
+Gold --|> Halls
+Platinum --|> Halls
+Unior --|> Service
+Middle --|> Service
+Senior --|> Service
+Operations *-- Classic
+Operations *-- Gold
+Operations *-- Platinum
+Admin *-- Customers
+Operations .> DataOperation
+
+Separator --|> MySeparator
+MySeparator --o Main
+@enduml
