@@ -1,0 +1,37 @@
+@font-face {
+    src: url("../sunday.ttf");
+}
+
+.top-section {
+    -fx-background-color: #282828;
+    -fx-font-family: "Sunday";
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+.bottom-section {
+
+}
+.root {
+    -fx-background-color: #424242;
+}
+.circular-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+.right-body-section {
+    -fx-alignment: CENTER_RIGHT;
+    -fx-font-family: "Sunday";
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-background-color: grey;
+}
+.left-body-section {
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-family: "Sunday";
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-background-color: grey;
+}
+

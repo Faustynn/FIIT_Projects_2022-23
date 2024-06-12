@@ -1,0 +1,11 @@
+user1;111;Artur Pentragon;21;1
+user2;222;STU FIIT;23;00002
+user3;333;Maria Mrkvicka;15;00003
+user4;444;Saul Mamedov;32;00004
+user5;555;Volodymyr Zelenskii;54;00005
+user6;666;Valerii Zaluznii;23;00006
+user7;777;Lesia Ukrainka;13;00007
+user8;888;Vanya Viter;14;00008
+user9;999;Merlin Mudryy;90;00009
+user10;101;Artem Galinskii;32;00010
+test;000;test test;10;00011

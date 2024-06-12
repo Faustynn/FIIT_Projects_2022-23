@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo_oop_projectjavafx.controllers.MainController">
+    <top>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="874.0" styleClass="top-section">
+            <ImageView fitHeight="50" fitWidth="50.0" styleClass="circular-image">
+                <image>
+                    <Image url="@../img/main_icon.png" />
+                </image>
+            <HBox.margin>
+               <Insets right="35.0" />
+            </HBox.margin>
+            </ImageView>
+         <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="DIA">
+            <HBox.margin>
+               <Insets right="60.0" />
+            </HBox.margin>
+         </Text>
+            <Region prefWidth="25" />
+            <Label prefHeight="40.0" prefWidth="900.0" style="-fx-font-size: 16px; -fx-font-family: Sunday; -fx-text-fill: white;" text="This code was provided and created by Meredov Nazar for STU FIIT 2024 OOP " />
+        </HBox>
+    </top>
+
+    <center>
+        <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0">
+            <HBox prefHeight="500.0" styleClass="left-body-section">
+                <VBox>
+                    <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0">
+                        <children>
+                            <Label layoutX="369.0" layoutY="74.0" style="-fx-font-size: 30px; -fx-font-family: Sunday; -fx-text-fill: white;" text="Please login:" />
+                            <TextField fx:id="usernameField" layoutX="333.0" layoutY="139.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" prefWidth="250.0">
+                        <font>
+                           <Font name="Arial Black" size="20.0" />
+                        </font></TextField>
+                            <PasswordField fx:id="passwordField" layoutX="334.0" layoutY="195.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" prefWidth="250.0">
+                        <font>
+                           <Font name="Arial Black" size="20.0" />
+                        </font></PasswordField>
+                            <Button layoutX="273.0" layoutY="267.0" mnemonicParsing="false" onAction="#handleRegisterButtonAction" prefHeight="38.0" prefWidth="100.0" style="-fx-font-size: 16px;" text="Register" />
+                            <Button layoutX="385.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="38.0" prefWidth="134.0" text="Login" />
+                            <Label layoutX="214.0" layoutY="149.0" prefHeight="33.0" prefWidth="124.0" style="-fx-font-size: 20px;" text="UserName:" />
+                            <Label layoutX="210.0" layoutY="206.0" style="-fx-font-size: 20px;" text="Password:" />
+                        </children>
+                    </AnchorPane>
+                </VBox>
+            </HBox>
+
+
+            <HBox prefHeight="10.0" styleClass="right-body-section">
+                <VBox />
+            </HBox>
+        </HBox>
+    </center>
+
+
+</BorderPane>

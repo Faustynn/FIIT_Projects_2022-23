@@ -1,0 +1,8 @@
+n;100;2/2;Advertising Act;A
+0;10;0/0;Refugee Act;A
+y;1000;700/1000;Leave of Absence Act;A
+n;200;30/170;Martial Law;M
+0;500;0/0;Prosecutor's Office Act;M
+y;150;140/10;School Funding Act;E
+0;1000;0/0;Law on the Purchase of Books for Children;E
+0;230;0/0;Law on Increasing Funding for Education;E

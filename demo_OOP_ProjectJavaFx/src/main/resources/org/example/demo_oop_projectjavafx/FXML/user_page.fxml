@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo_oop_projectjavafx.controllers.UserPageController">
+    <top>
+        <HBox alignment="CENTER" styleClass="top-section">
+            <ImageView fitHeight="50" fitWidth="50.0" styleClass="circular-image">
+                <image>
+                    <Image url="@../img/main_icon.png" />
+                </image>
+                <HBox.margin>
+                    <Insets right="35.0" />
+                </HBox.margin>
+            </ImageView>
+            <Label style="-fx-font-size: 24px; -fx-font-family: Sunday; -fx-text-fill: white;" text="DIA">
+                <padding>
+                    <Insets right="160.0" />
+                </padding></Label>
+            <Region prefWidth="25" />
+            <Label prefHeight="36.0" prefWidth="900" style="-fx-font-size: 20px; -fx-font-family: Sunday; -fx-text-fill: white;" text="This code was provided and created by Meredov Nazar for STU FIIT 2024 OOP " />
+        </HBox>
+    </top>
+
+
+    <center>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1500.0" styleClass="right-body-section">
+         <VBox prefHeight="500.0" prefWidth="500.0" translateY="350.0">
+            <children>
+               <Button mnemonicParsing="false" onAction="#handleLogOutButtonAction" prefHeight="50.0" prefWidth="90.0" style="-fx-font-size: 14px; -fx-font-family: Sunday;" text="LOG OUT" translateX="425.0" translateY="225.0" />
+               <HBox prefHeight="168.0" prefWidth="550.0" translateX="225.0">
+                  <children>
+                     <Button mnemonicParsing="false" onAction="#LawsButtonAction" prefHeight="150.0" prefWidth="160.0" style="-fx-background-radius: 100%;" text="Laws">
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <HBox.margin>
+                           <Insets right="25.0" />
+                        </HBox.margin>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#CreateAndDeleteLawsButtonAction" prefHeight="150.0" prefWidth="250.0" style="-fx-background-radius: 100%;" text="Create/Delete">
+                        <HBox.margin>
+                           <Insets right="25.0" />
+                        </HBox.margin>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#ProfileButtonAction" prefHeight="150.0" prefWidth="160.0" style="-fx-background-radius: 100%;" text="Profile" />
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+                <Text fx:id="welcomeText" strokeType="OUTSIDE" strokeWidth="0.0" style=" -fx-font-family: Sunday; " text="Welcome" translateX="-350.0" translateY="-150.0" HBox.hgrow="NEVER">
+            <font>
+               <Font size="60.0" />
+            </font></Text>
+         <Region prefHeight="200.0" prefWidth="200.0" />
+                <VBox />
+            </HBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="46.0" prefWidth="900.0" styleClass="bottom-section">
+            <Label style="-fx-font-size: 20px; -fx-font-family: Sunday; -fx-text-fill: white;" text="Some text here" />
+        </HBox>
+    </bottom>
+</BorderPane>

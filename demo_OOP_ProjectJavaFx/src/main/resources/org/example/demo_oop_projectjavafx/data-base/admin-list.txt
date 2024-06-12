@@ -1,0 +1,8 @@
+admin1;123;Nazar Meredov;19;105;123523
+admin2;123;Anna Mrkvicka;20;124;99999999
+admin3;123;Diana Mrkvicka;21;3254;1000000
+admin4;123;Jozko Mrkvicka;22;234;135931518
+admin5;123;Jozef Budilin;23;121;238241998
+admin6;123;Jakub Lang;40;31;1415825910
+admin7;123;Vranic Valentin;70;51;9827418
+admin8;123;Lukas Kohutka;43;525;023420582
