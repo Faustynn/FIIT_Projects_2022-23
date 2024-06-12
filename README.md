@@ -1,6 +1,6 @@
-README;
-projectZPRPR -> First project in C lang. (ZPRPR1)
-ZPRPR2_MeredovN_Project1 -> Second proj. in C lang for sorting files using static arrays and print inf. to console. (ZPRPR2)
-122092_2023_MeredovN_Project2 -> Third proj. in C lang. for sorting files using dinamic alocation and print inf. to console. (ZPRPR2)
-ZTIAPL_GAME -> Simple web-game in JS lang. (ZTIAPL)
-Project_MeredoN-> My first simpe web-site using htms,css,js & php (ZMTMO)
+ZPRPR1: First project in C language. (ZPRPR1)
+ZPRPR2: Second project in C language for sorting files using static arrays and printing information to the console. (ZPRPR2)
+122092_2023_MeredovN_Project2: Third project in C language for sorting files using dynamic allocation and printing information to the console. (ZPRPR2)
+ZTIAPL: Simple web game in JavaScript. (ZTIAPL)
+Project_MeredoN: My first simple website using HTML, CSS, JavaScript, and PHP. (ZMTMO)
+DSA_Projects: My Structures & Algorithms in C language for the DSA subject. (DSA)
